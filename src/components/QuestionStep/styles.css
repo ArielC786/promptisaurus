@@ -1,0 +1,58 @@
+.question-step {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.question-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.answer-dialog {
+  margin: 1rem 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  font-size: 1rem;
+  resize: none;
+  outline: none;
+  font-family: inherit;
+}
+
+textarea.input-field {
+  min-height: 80px;
+}
+
+.answer-references {
+  margin-top: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.reference-item {
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.reference-item:hover {
+  background: #f0f0f0;
+  color: #000;
+}
+
+.reference-item.selected {
+  background: #e0e0e0;
+  color: #000;
+  font-weight: 500;
+} 

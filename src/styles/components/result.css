@@ -1,0 +1,15 @@
+#result-display {
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+#result-display h3 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #1a1a1a;
+    margin: 0 0 20px 0;
+    font-size: 1.6em;
+    font-weight: 600;
+} 
