@@ -7,10 +7,17 @@ const PromptBuilder = () => {
   const [finalPrompt, setFinalPrompt] = useState('');
   const [showFinalPrompt, setShowFinalPrompt] = useState(false);
 
+  const rephraseInput = (input) => {
+    // Logic to rephrase the input for grammatical correctness
+    // This is a placeholder; you can integrate an API or a library for actual rephrasing
+    return input; // Replace with actual rephrased input
+  };
+
   const handleAnswer = (questionId, answer) => {
+    const rephrasedAnswer = rephraseInput(answer);
     setAnswers(prev => ({
       ...prev,
-      [questionId]: answer
+      [questionId]: rephrasedAnswer
     }));
   };
 
